@@ -6,7 +6,7 @@ export default function ImageWithLightbox({
   src, 
   alt, 
   caption, 
-  provenance = "Team Rocket Engineering Concept", 
+  provenance = "Team Zavaibah Engineering Concept", 
   disclaimer = "DIMENSIONS ARE CONCEPTUAL / FINAL VALUES TO BE DETERMINED DURING CAD",
   fallbackComponent: FallbackComponent,
   badge = "CONCEPT DRAWING"
@@ -120,7 +120,7 @@ export default function ImageWithLightbox({
                   <div className="p-12 text-center text-slate-400">
                     <p className="text-base font-semibold text-slate-700">Detailed Engineering Reference</p>
                     <p className="text-xs text-slate-500 mt-1 max-w-md">
-                      Source drawing from Team Rocket technical documents. Real assets will render here when placed in <code className="text-sky-600 bg-sky-50 px-1 py-0.5 rounded">src/assets/</code>.
+                      Source drawing from Team Zavaibah technical documents. Real assets will render here when placed in <code className="text-sky-600 bg-sky-50 px-1 py-0.5 rounded">src/assets/</code>.
                     </p>
                   </div>
                 )}

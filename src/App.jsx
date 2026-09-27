@@ -102,7 +102,7 @@ export default function App() {
         {/* Known Limitations & Open Engineering Questions */}
         <LimitationsSection />
 
-        {/* Team Rocket Showcase */}
+        {/* Team Zavaibah Showcase */}
         <TeamSection />
 
         {/* Final CTA Showcase */}

@@ -50,7 +50,7 @@ export default function TechnologyStack() {
     },
     {
       id: "hr_spo2",
-      name: "MAX30102 Module",
+      name: "Ag/AgCl ECG electrodesModule",
       role: "Maternal Pulse & Blood Oxygen",
       icon: Heart,
       color: "text-rose-600 bg-rose-50 border-rose-200",
@@ -106,7 +106,7 @@ export default function TechnologyStack() {
             HARDWARE COMPONENT STACK
           </h2>
           <p className="mt-3 text-sm text-slate-600">
-            Engineered using commercially accessible microcontrollers and medical-grade sensors, fully documented in Team Rocket's Bill of Materials.
+            Engineered using commercially accessible microcontrollers and medical-grade sensors, fully documented in Team Zavaibah's Bill of Materials.
           </p>
         </div>
 

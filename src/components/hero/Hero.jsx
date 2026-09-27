@@ -83,7 +83,7 @@ export default function Hero({ onSelectSensor }) {
               className="w-full sm:w-auto px-6 py-3 sm:py-3.5 rounded-full bg-white hover:bg-slate-50 text-slate-800 font-semibold text-xs sm:text-sm border border-slate-200 shadow-sm hover:shadow transition-all flex items-center justify-center gap-2"
             >
               <Users className="w-4 h-4 text-slate-500" />
-              <span>Meet Team Rocket</span>
+              <span>Meet Team Zavaibah</span>
             </button>
           </motion.div>
         </div>

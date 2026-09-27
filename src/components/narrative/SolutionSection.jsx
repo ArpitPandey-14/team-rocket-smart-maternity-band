@@ -27,7 +27,7 @@ export default function SolutionSection() {
       color: "from-indigo-500 to-purple-600",
       textColor: "text-indigo-600",
       bgLight: "bg-indigo-50 border-indigo-200",
-      description: "Non-invasive sensor cluster integrating MAX30102 for maternal pulse and SpO2, piezoelectric acoustic sensors for fetal kick frequency, and high-precision TMP117 skin temperature monitoring.",
+      description: "Non-invasive sensor cluster integrating Ag/AgCl ECG electrodesfor maternal pulse and SpO2, piezoelectric acoustic sensors for fetal kick frequency, and high-precision TMP117 skin temperature monitoring.",
       details: ["Piezo-film fetal movement detection", "Dual LSM6DSOX 6-axis IMUs", "FSR402 belt fit pressure sensors"]
     },
     {

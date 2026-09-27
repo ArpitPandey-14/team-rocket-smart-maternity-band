@@ -62,24 +62,10 @@ export default function Navbar({ onOpenSOS }) {
     >
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 flex items-center justify-between">
         {/* Brand */}
-        <a 
-          href="#hero" 
-          onClick={(e) => scrollToSection(e, '#hero')}
-          className="flex items-center gap-2 group shrink-0"
-        >
-          <div className="w-7 h-7 sm:w-8 sm:h-8 rounded-xl bg-gradient-to-br from-sky-500 to-indigo-600 flex items-center justify-center text-white text-sm sm:text-base shadow-xs group-hover:scale-105 transition-transform">
-            🚀
+     
+          <div className="w-7 h-7 sm:w-8 sm:h-8 shrink-0">
+            
           </div>
-          <div className="flex flex-col">
-            <div className="flex items-center gap-1">
-              <span className="font-bold text-slate-900 tracking-tight text-xs sm:text-sm">ROCKET</span>
-              <span className="px-1 py-0.2 text-[9px] sm:text-[10px] font-bold rounded bg-sky-100 text-sky-700">SIH 2026</span>
-            </div>
-            <span className="text-[8.5px] sm:text-[10px] text-slate-500 font-medium tracking-wide uppercase hidden xs:inline-block">
-              Smart Maternity Band
-            </span>
-          </div>
-        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden xl:flex items-center gap-1 bg-slate-100/70 p-1 rounded-full border border-slate-200/60 backdrop-blur-md">
@@ -168,7 +154,7 @@ export default function Navbar({ onOpenSOS }) {
             </div>
             <div className="mt-3 pt-3 border-t border-slate-100 flex items-center justify-between text-[10px] sm:text-[11px] text-slate-500 font-mono">
               <span>PROBLEM: SIH26113</span>
-              <span className="text-sky-700 font-semibold">TEAM ROCKET</span>
+              <span className="text-sky-700 font-semibold">TEAM Zavaibah</span>
             </div>
           </motion.div>
         )}

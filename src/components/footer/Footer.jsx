@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-6 pb-8 border-b border-slate-800/80">
           <div>
             <div className="flex items-center gap-2 mb-2">
-              <span className="text-sm font-extrabold text-white tracking-tight">ROCKET</span>
+              <span className="text-sm font-extrabold text-white tracking-tight">Zavaibah</span>
               <span className="text-sm">🚀</span>
               <span className="px-2 py-0.5 rounded-full bg-sky-950 text-sky-400 font-mono text-[10px] font-bold border border-sky-800">
                 SIH 2026
@@ -21,7 +21,7 @@ export default function Footer() {
           <div className="text-left md:text-right font-mono text-[11px] space-y-1">
             <p className="text-sky-400 font-bold">PROBLEM ID: SIH26113</p>
             <p className="text-slate-400">THEME: HEALTHTECH · CATEGORY: HARDWARE</p>
-            <p className="text-slate-500">© 2026 Team Rocket. All rights reserved.</p>
+            <p className="text-slate-500">© 2026 Team Zavaibah. All rights reserved.</p>
           </div>
         </div>
 

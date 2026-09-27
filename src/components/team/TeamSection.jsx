@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Users, Wrench, Cpu, Activity, Smartphone, ShieldCheck, Sparkles } from 'lucide-react';
-import { teamRocketsDisciplines } from '../../data/projectData';
+import { teamZavaibahsDisciplines } from '../../data/projectData';
 
 // ADD REAL TEAM MEMBER INFORMATION HERE IF/WHEN THE TEAM CHOOSES TO PUBLISH IT.
 // Do not populate with invented or placeholder names.
@@ -14,10 +14,10 @@ export default function TeamSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <div className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky-50 text-sky-700 border border-sky-200 text-xs font-semibold mb-3">
-            <span>TEAM ROCKET · SMART INDIA HACKATHON 2026</span>
+            <span>TEAM Zavaibah · SMART INDIA HACKATHON 2026</span>
           </div>
           <h2 className="text-3xl sm:text-5xl font-extrabold text-slate-900 tracking-tight">
-            MEET TEAM ROCKET 🚀
+            MEET TEAM Zavaibah 🚀
           </h2>
           <p className="mt-3 text-sm text-slate-600">
             Building technology for safer and more comfortable maternity care.
@@ -26,7 +26,7 @@ export default function TeamSection() {
 
         {/* Multidisciplinary Unit Cards */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {teamRocketsDisciplines.map((unit, idx) => {
+          {teamZavaibahsDisciplines.map((unit, idx) => {
             const Icon = disciplineIcons[idx];
             return (
               <motion.div

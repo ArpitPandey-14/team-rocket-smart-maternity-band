@@ -28,7 +28,7 @@ export default function FinalCTA() {
         </h2>
 
         <div className="mt-6 flex flex-col items-center gap-1 font-mono text-xs sm:text-sm text-slate-400">
-          <span className="text-white font-bold tracking-wide">TEAM ROCKET 🚀</span>
+          <span className="text-white font-bold tracking-wide">TEAM Zavaibah 🚀</span>
           <span>SMART MATERNITY BAND</span>
           <span className="text-sky-400 font-semibold">SMART INDIA HACKATHON 2026 · PROBLEM SIH26113</span>
         </div>
@@ -47,7 +47,7 @@ export default function FinalCTA() {
             className="px-8 py-4 rounded-full bg-white/10 hover:bg-white/20 text-white font-bold text-sm border border-white/20 backdrop-blur-md transition-all flex items-center gap-2"
           >
             <Users className="w-4 h-4 text-slate-300" />
-            <span>Meet Team Rocket</span>
+            <span>Meet Team Zavaibah</span>
           </button>
         </div>
       </div>

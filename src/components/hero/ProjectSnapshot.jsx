@@ -8,7 +8,7 @@ export default function ProjectSnapshot() {
     { label: "THEME", val: "HEALTHTECH", icon: HeartPulse, color: "text-rose-600 bg-rose-50" },
     { label: "CATEGORY", val: "HARDWARE", icon: Cpu, color: "text-indigo-600 bg-indigo-50" },
     { label: "PROBLEM ID", val: "SIH26113", icon: Zap, color: "text-sky-600 bg-sky-50" },
-    { label: "INNOVATOR", val: "TEAM ROCKET 🚀", icon: Activity, color: "text-emerald-600 bg-emerald-50" },
+    { label: "INNOVATOR", val: "TEAM Zavaibah 🚀", icon: Activity, color: "text-emerald-600 bg-emerald-50" },
   ];
 
   return (

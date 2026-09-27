@@ -74,7 +74,7 @@ export default function MobileAppDemo({ onOpenSOS }) {
               <div className="p-3.5 sm:p-4 bg-white/90 border-b border-slate-100 flex items-center justify-between sticky top-0 z-10 backdrop-blur-md">
                 <div>
                   <span className="text-[9px] sm:text-[10px] font-mono font-bold text-sky-700 uppercase tracking-wider block">
-                    ROCKET SMART TELEMETRY
+                    Zavaibah SMART TELEMETRY
                   </span>
                   <span className="text-xs sm:text-sm font-bold text-slate-900">Maternal Companion</span>
                 </div>
@@ -339,7 +339,7 @@ export default function MobileAppDemo({ onOpenSOS }) {
               {/* App Bottom Footer Bar */}
               <div className="p-2.5 sm:p-3 bg-white border-t border-slate-100 flex items-center justify-between text-[9px] sm:text-[10px] font-mono text-slate-400">
                 <span>LOCAL ENCRYPTED</span>
-                <span>TEAM ROCKET APP v1.0</span>
+                <span>TEAM Zavaibah APP v1.0</span>
               </div>
             </div>
           </div>

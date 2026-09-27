@@ -1,4 +1,4 @@
-# 🚀 Smart Maternity Band — Team Rocket | SIH 2026
+# 🚀 Smart Maternity Band — Team Zavaibah | SIH 2026
 
 [![React](https://img.shields.io/badge/React-18.3.1-61DAFB?logo=react&logoColor=black)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-6.1.0-646CFF?logo=vite&logoColor=white)](https://vitejs.dev/)
@@ -8,7 +8,7 @@
 [![Smart India Hackathon 2026](https://img.shields.io/badge/SIH-2026-orange)](https://www.sih.gov.in/)
 
 > **A HealthTech maternal wearable concept combining physical abdominal support, continuous non-invasive biosensing, localized emergency response, and mobile guidance.**  
-> Built by **Team Rocket** for **Smart India Hackathon (SIH 2026)**.
+> Built by **Team Zavaibah** for **Smart India Hackathon (SIH 2026)**.
 
 ---
 
@@ -76,13 +76,13 @@ Follow these steps to set up the project locally:
 ### 1. Clone the Repository
 ```bash
 # Using SSH (recommended if you have GitHub SSH keys configured)
-git clone git@github.com:ankit24525/team-rocket-smart-maternity-band.git
+git clone git@github.com:ankit24525/team-Zavaibah-smart-maternity-band.git
 
 # OR using HTTPS
-git clone https://github.com/ankit24525/team-rocket-smart-maternity-band.git
+git clone https://github.com/ankit24525/team-Zavaibah-smart-maternity-band.git
 
 # Navigate into the project directory
-cd team-rocket-smart-maternity-band
+cd team-Zavaibah-smart-maternity-band
 ```
 
 ### 2. Install Dependencies
@@ -154,7 +154,7 @@ In the project root, you can run:
 ## 📂 Project Architecture & Directory Structure
 
 ```plaintext
-team-rocket-smart-maternity-band/
+team-Zavaibah-smart-maternity-band/
 ├── index.html                 # HTML Entry point with Google Fonts & OG meta
 ├── package.json               # Project manifest, scripts, and dependencies
 ├── package-lock.json          # Dependency lockfile
@@ -177,7 +177,7 @@ team-rocket-smart-maternity-band/
 │   │   ├── mobile/            # Simulated interactive mobile app with Recharts
 │   │   ├── safety/            # Safety-first architecture & 30s SOS emergency modal
 │   │   ├── validation/        # Feasibility, Viability, Impact, Benefits, Limitations & Privacy
-│   │   ├── team/              # Team Rocket member profiles & hackathon credits
+│   │   ├── team/              # Team Zavaibah member profiles & hackathon credits
 │   │   └── footer/            # Final call-to-action & footer
 │   └── data/                  # Static sensor specs, timeline steps & mock telemetry data
 └── README.md                  # Project documentation & setup instructions
@@ -188,7 +188,7 @@ team-rocket-smart-maternity-band/
 ## 🔬 Hardware & Sensor Concepts
 
 The wearable system architecture modeled in this project incorporates:
-- **Optical PPG (MAX30102 / equivalent):** Maternal heart rate & blood oxygen saturation (SpO2) monitoring.
+- **Optical PPG (Ag/AgCl ECG electrodes/ equivalent):** Maternal heart rate & blood oxygen saturation (SpO2) monitoring.
 - **Precision Digital Thermometer (MAX30205):** Continuous skin surface temperature trend detection.
 - **6-Axis Inertial Measurement Unit (IMU):** Posture tracking, prolonged inactivity alerts, and automatic fall detection.
 - **Modular Controller Pod:** Low-power microcontroller with Bluetooth Low Energy (BLE 5.2), local vibration motor for haptic feedback, and magnetic charging pins.
@@ -232,5 +232,5 @@ npm install
 
 ## 👥 Authors & Acknowledgments
 
-- **Team Rocket** — Smart India Hackathon (SIH 2026)
+- **Team Zavaibah** — Smart India Hackathon (SIH 2026)
 - Designed & engineered with ❤️ for maternal wellness and safety.

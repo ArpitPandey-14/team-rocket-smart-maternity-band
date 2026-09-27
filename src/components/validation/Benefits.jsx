@@ -24,7 +24,7 @@ export default function Benefits() {
             COMPREHENSIVE MATERNAL ADVANTAGES
           </h2>
           <p className="mt-3 text-sm text-slate-600">
-            Six foundational pillars that separate Team Rocket's Smart Maternity Band from traditional static pregnancy braces.
+            Six foundational pillars that separate Team Zavaibah's Smart Maternity Band from traditional static pregnancy braces.
           </p>
         </div>
 
@@ -52,7 +52,7 @@ export default function Benefits() {
                 </div>
 
                 <div className="mt-4 pt-3 border-t border-slate-100 flex items-center justify-between text-[10px] font-mono text-slate-400">
-                  <span>TEAM ROCKET BENEFIT SPEC</span>
+                  <span>TEAM Zavaibah BENEFIT SPEC</span>
                   <span className="text-emerald-600 font-semibold">VERIFIED</span>
                 </div>
               </motion.div>

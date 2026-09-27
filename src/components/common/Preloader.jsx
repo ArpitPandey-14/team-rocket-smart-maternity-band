@@ -69,7 +69,7 @@ export default function Preloader() {
             >
               <div className="flex items-center justify-center gap-2 mb-1">
                 <span className="text-xs font-bold tracking-widest text-sky-700 uppercase">
-                  ROCKET
+                  Zavaibah
                 </span>
                 <span className="text-xs">🚀</span>
               </div>

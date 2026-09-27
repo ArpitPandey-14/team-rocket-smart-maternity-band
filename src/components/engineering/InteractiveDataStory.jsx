@@ -7,7 +7,7 @@ export default function InteractiveDataStory() {
 
   const metrics = [
     { id: 'fetal', name: 'Fetal Movement', sensor: 'Piezo-Film Sensors', icon: Baby, color: 'text-indigo-600' },
-    { id: 'hr', name: 'Heart Rate', sensor: 'MAX30102 PPG', icon: Heart, color: 'text-rose-600' },
+    { id: 'hr', name: 'Heart Rate', sensor: 'Ag/AgCl ECG electrodesPPG', icon: Heart, color: 'text-rose-600' },
     { id: 'movement', name: 'Movement', sensor: 'LSM6DSOX 6-Axis IMU', icon: Compass, color: 'text-teal-600' },
     { id: 'temp', name: 'Temperature', sensor: 'TMP117 Clinical Probe', icon: Thermometer, color: 'text-purple-600' },
     { id: 'pressure', name: 'Pressure', sensor: 'FSR402 4-Zone Matrix', icon: Gauge, color: 'text-amber-600' }
@@ -17,7 +17,7 @@ export default function InteractiveDataStory() {
 
   const steps = [
     { label: current.sensor, role: "Acquisition", tag: "Hardware" },
-    { label: "ESP32-S3 Edge Filter", role: "Digital Filtering", tag: "MCU Processing" },
+    { label: "ESP32-S3 DevKit", role: "Digital Filtering", tag: "MCU Processing" },
     { label: "BLE 5.0 LE Packet", role: "Wireless Transfer", tag: "2.4GHz Radio" },
     { label: "Mobile App Client", role: "Local Aggregation", tag: "Phone Storage" },
     { label: `${current.name} Trend`, role: "Display & Safety", tag: "DEMO DATA" }

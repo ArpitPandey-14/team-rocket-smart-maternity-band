@@ -5,7 +5,7 @@ export const todayMetrics = [
   {
     id: "hr",
     label: "Maternal Heart Rate",
-    sensor: "MAX30102 PPG Optical",
+    sensor: "Ag/AgCl ECG electrodesPPG Optical",
     value: "78",
     unit: "BPM",
     zone: "Resting Baseline",
@@ -16,7 +16,7 @@ export const todayMetrics = [
   {
     id: "spo2",
     label: "Blood Oxygen (SpO₂)",
-    sensor: "MAX30102 PPG Optical",
+    sensor: "Ag/AgCl ECG electrodesPPG Optical",
     value: "98.4",
     unit: "%",
     zone: "Stable Saturation",

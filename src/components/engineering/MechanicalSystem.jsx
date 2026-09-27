@@ -47,7 +47,7 @@ export default function MechanicalSystem() {
             ENGINEERED FOR SUPPORT.
           </h2>
           <p className="mt-4 text-sm sm:text-base text-slate-600 leading-relaxed">
-            Team Rocket's Structure A (Lightweight Optimized) architecture — replacing rigid static belts with dynamic load redistribution, telescoping UHMWPE tracks, and kinetic sit-to-stand assistance.
+            Team Zavaibah's Structure A (Lightweight Optimized) architecture — replacing rigid static belts with dynamic load redistribution, telescoping UHMWPE tracks, and kinetic sit-to-stand assistance.
           </p>
         </div>
 

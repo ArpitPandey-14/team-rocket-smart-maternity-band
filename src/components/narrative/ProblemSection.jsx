@@ -93,7 +93,7 @@ export default function ProblemSection() {
                   </div>
 
                   <div className="mt-4 pt-3 border-t border-white/5 flex items-center gap-1 text-[11px] text-slate-400 font-mono">
-                    <span>Addressed by Team Rocket</span>
+                    <span>Addressed by Team Zavaibah</span>
                     <ChevronRight className="w-3 h-3 text-sky-400" />
                   </div>
                 </motion.div>

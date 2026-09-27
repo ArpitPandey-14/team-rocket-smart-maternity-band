@@ -45,7 +45,7 @@ export default function LimitationsSection() {
                 </div>
 
                 <div className="mt-6 pt-4 border-t border-slate-100 flex items-center justify-between text-[11px] font-mono text-slate-400">
-                  <span>TEAM ROCKET RESOLUTION PROTOCOL</span>
+                  <span>TEAM Zavaibah RESOLUTION PROTOCOL</span>
                   <span className="text-sky-600 font-bold">ACTIVE STUDY</span>
                 </div>
               </div>

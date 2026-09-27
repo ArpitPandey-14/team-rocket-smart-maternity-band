@@ -14,7 +14,7 @@ export default function WhyItMatters() {
             A PARADIGM SHIFT IN CARE
           </h2>
           <p className="mt-3 text-sm text-slate-600">
-            Conceptual side-by-side comparison between conventional pregnancy experience and Team Rocket's adaptive ecosystem.
+            Conceptual side-by-side comparison between conventional pregnancy experience and Team Zavaibah's adaptive ecosystem.
           </p>
         </div>
 

@@ -22,7 +22,7 @@ export default function HeroProductVisual({ onSelectSensor }) {
     {
       id: "hr",
       label: "HEART RATE",
-      sensor: "MAX30102 PPG Optical",
+      sensor: "Ag/AgCl ECG electrodesPPG Optical",
       spec: "Maternal Pulse Waveform",
       icon: Heart,
       color: "text-rose-500",

@@ -6,7 +6,7 @@ export const projectMeta = {
   problemId: "SIH26113",
   theme: "HealthTech",
   category: "Hardware",
-  teamName: "TEAM ROCKET",
+  teamName: "TEAM Zavaibah",
   teamTagline: "Building technology for safer and more comfortable maternity care.",
   projectTitle: "SMART MATERNITY BAND",
   headline: "Technology for safer, smarter and more comfortable maternity care.",
@@ -145,22 +145,23 @@ export const growthStages = [
 
 export const bomComponents = [
   { function: "Main MCU + BLE/Wi-Fi", component: "ESP32-S3 DevKit", qty: 1, costRange: "₹650 – ₹1,500", status: "Selected" },
-  { function: "Maternal HR + SpO₂", component: "MAX30102 module", qty: 1, costRange: "₹130 – ₹250", status: "Selected for prototype" },
-  { function: "Body/skin temperature", component: "TMP117 (or DS18B20 alt.)", qty: 1, costRange: "₹150 – ₹450", status: "Under evaluation" },
-  { function: "Pelvic/torso motion", component: "LSM6DSOX (or MPU6050 alt.)", qty: 1, costRange: "₹500 – ₹1,200", status: "Under evaluation" },
-  { function: "Thigh motion / hip angle", component: "LSM6DSOX", qty: 1, costRange: "₹500 – ₹1,200", status: "Recommended" },
-  { function: "Fetal movement sensing", component: "Piezo-film / flexible piezo sensor", qty: "3–4", costRange: "₹100 – ₹250", status: "Availability risk noted" },
-  { function: "Maternal abdominal shape", component: "Stretch/extension sensor / rotary encoder", qty: 1, costRange: "₹100 – ₹400", status: "Proposed addition" },
-  { function: "Emergency manual SOS", component: "Tactile / push button", qty: 1, costRange: "₹10 – ₹30", status: "Proposed addition" },
-  { function: "Local alert (haptic)", component: "Vibration motor", qty: 1, costRange: "₹20 – ₹60", status: "Proposed addition" },
-  { function: "Local audio alert", component: "Mini buzzer", qty: 1, costRange: "₹10 – ₹30", status: "Proposed addition" },
+  { function: "Maternal ECG sensing", component: "Ag/AgCl ECG electrodes/wearable dry ECG", qty: 3, costRange: "₹30 – ₹900", status: "Selected" },
+  {function: "ECG signal acquisition", component: "AD8232 ECG AFE module", qty: 1, costRange: "₹250 – ₹500", status: "Selected" },
+  { function: "Body/skin temperature", component: "TMP117 ", qty: 1, costRange: "₹150 – ₹450", status: "Selected" },
+  { function: "Pelvic motion posture & fall detection", component: "LSM6DSOX ", qty: 1, costRange: "₹500 – ₹1,200", status: "Selected" },
+  { function: "Mechanical hip/cam angle", component: "Magnetic rotary encoder AS5600", qty: 1, costRange: "₹500 – ₹1,200", status: "Selected" },
+  { function: "Fetal movement sensing", component: "Piezo-film / flexible piezo sensor", qty: "3–4", costRange: "₹100 – ₹250", status: "Selected for prototype " },
+  { function: "Maternal abdominal shape", component: "Stretch/extension sensor / rotary encoder", qty: 1, costRange: "₹100 – ₹400", status: "Selected" },
+  { function: "Emergency manual SOS", component: "Tactile / push button", qty: 1, costRange: "₹10 – ₹30", status: "Selected" },
+  { function: "Local alert (haptic)", component: " Coin Vibration motor", qty: 1, costRange: "₹20 – ₹60", status: "Selected" },
+  { function: "Local audio alert", component: "Mini buzzer", qty: 1, costRange: "₹10 – ₹30", status: "Selected" },
   { function: "Battery power", component: "3.7V Li-Po (1500–2000 mAh)", qty: 1, costRange: "₹250 – ₹450", status: "Selected" },
   { function: "Charging management", component: "TP4056 protected module", qty: 1, costRange: "₹20 – ₹50", status: "Selected for prototype" },
-  { function: "Battery monitoring", component: "MAX17048 fuel gauge", qty: 1, costRange: "₹100 – ₹300", status: "Recommended" },
+  { function: "Battery monitoring", component: "MAX17048 fuel gauge", qty: 1, costRange: "₹100 – ₹300", status: "Selected for prototype" },
   { function: "Data storage backup", component: "MicroSD module", qty: 1, costRange: "₹80 – ₹150", status: "Optional" },
-  { function: "Belt pressure monitoring", component: "FSR402 (×4 array)", qty: 4, costRange: "₹155 – ₹350", status: "Proposed addition" },
-  { function: "Spring assist force", component: "Load cell", qty: 1, costRange: "₹200 – ₹700", status: "Proposed addition" },
-  { function: "Load-cell amplifier", component: "HX711", qty: 1, costRange: "₹100 – ₹200", status: "Proposed addition" }
+  { function: "Belt pressure monitoring", component: "FSR402 (×4 array)", qty: 4, costRange: "₹155 – ₹350", status: "Selected" },
+  { function: "Spring assist force", component: "Load cell", qty: 1, costRange: "₹200 – ₹700", status: "Selected" },
+
 ];
 
 export const bomCostSummary = {
@@ -203,7 +204,7 @@ export const howItWorksSteps = [
     step: "01",
     title: "SENSORS COLLECT",
     subtitle: "Real-time Telemetry Acquisition",
-    detail: "MAX30102 optical sensor captures pulse waveforms and SpO2; piezo-film nodes sense subtle fetal kicks; dual LSM6DSOX IMUs sample 6-axis posture and acceleration at 50Hz.",
+    detail: "Ag/AgCl ECG electrodesoptical sensor captures pulse waveforms and SpO2; piezo-film nodes sense subtle fetal kicks; dual LSM6DSOX IMUs sample 6-axis posture and acceleration at 50Hz.",
     metric: "50Hz Sensor Polling"
   },
   {
@@ -357,25 +358,25 @@ export const knownLimitations = [
 // Reusable Team Section Structure (NO INDIVIDUAL NAMES POLICY)
 // // ADD REAL TEAM MEMBER INFORMATION HERE IF/WHEN THE TEAM CHOOSES TO PUBLISH IT.
 // // Do not populate with invented or placeholder names.
-export const teamRocketsDisciplines = [
+export const teamZavaibahsDisciplines = [
   {
     role: "Mechanical Engineering & Ergonomics",
     focus: "4-Zone support architecture, telescoping UHMWPE sliding rails, and CNC hip assist spring.",
-    code: "TEAM ROCKET — MECH UNIT"
+    code: "TEAM Zavaibah — MECH UNIT"
   },
   {
     role: "Embedded Systems & Firmware",
     focus: "ESP32-S3 dual-core firmware, FreeRTOS tasks, BLE 5.0 GATT server, and sensor interrupts.",
-    code: "TEAM ROCKET — FIRMWARE UNIT"
+    code: "TEAM Zavaibah — FIRMWARE UNIT"
   },
   {
     role: "Biometric Sensing & Signal Processing",
-    focus: "MAX30102 PPG conditioning, piezo-film fetal kick filtering, and dual-IMU fall detection logic.",
-    code: "TEAM ROCKET — SENSORS UNIT"
+    focus: "Ag/AgCl ECG electrodesPPG conditioning, piezo-film fetal kick filtering, and dual-IMU fall detection logic.",
+    code: "TEAM Zavaibah — SENSORS UNIT"
   },
   {
     role: "Mobile App & Data Architecture",
     focus: "Local-first telemetry storage, Recharts analytics, wellness recommendations, and 30s SOS trigger.",
-    code: "TEAM ROCKET — SOFTWARE UNIT"
+    code: "TEAM Zavaibah — SOFTWARE UNIT"
   }
 ];

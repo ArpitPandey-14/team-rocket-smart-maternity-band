@@ -124,7 +124,7 @@ export default function SystemArchitecture() {
               <span className="text-[10px] font-mono font-bold text-sky-600 uppercase">STEP 01</span>
               <h4 className="text-base font-bold text-slate-900 mt-1">SENSORS</h4>
               <p className="text-xs text-slate-500 mt-2">
-                MAX30102 · TMP117 · LSM6DSOX · Piezo Array · FSR402 · HX711
+                Ag/AgCl ECG electrodes· TMP117 · LSM6DSOX · Piezo Array · FSR402 · HX711
               </p>
             </div>
 
