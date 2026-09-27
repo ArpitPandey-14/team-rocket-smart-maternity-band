@@ -57,7 +57,7 @@ export default function Preloader() {
               </svg>
               
               <div className="absolute inset-0 flex items-center justify-center">
-                <span className="text-xl">🚀</span>
+                <span className="text-xl"></span>
               </div>
             </div>
 
@@ -69,9 +69,9 @@ export default function Preloader() {
             >
               <div className="flex items-center justify-center gap-2 mb-1">
                 <span className="text-xs font-bold tracking-widest text-sky-700 uppercase">
-                  Zavaibah
+                   Team Zavaibah
                 </span>
-                <span className="text-xs">🚀</span>
+                <span className="text-xs"></span>
               </div>
               <h2 className="text-sm font-semibold tracking-wider text-slate-800 uppercase">
                 SMART MATERNITY BAND
