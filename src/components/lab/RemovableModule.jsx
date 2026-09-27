@@ -90,7 +90,7 @@ export default function RemovableModule() {
 
           <div className="grid grid-cols-3 gap-1.5 text-[10px] font-mono text-slate-300 mt-2">
             <div className="bg-slate-800 p-1 rounded text-center">ESP32-S3</div>
-            <div className="bg-slate-800 p-1 rounded text-center">MAX30102</div>
+            <div className="bg-slate-800 p-1 rounded text-center">Ag/Agcl ECG electrodes</div>
             <div className="bg-slate-800 p-1 rounded text-center">LSM6DSOX</div>
             <div className="bg-slate-800 p-1 rounded text-center">TMP117</div>
             <div className="bg-slate-800 p-1 rounded text-center">FSR BUS</div>

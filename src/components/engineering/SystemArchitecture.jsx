@@ -15,7 +15,7 @@ export default function SystemArchitecture() {
     sensors: {
       title: "Bio-Sensing & Telemetry Cluster",
       category: "Sensor Acquisition Layer",
-      role: "Gathers raw photoplethysmography (MAX30102), acoustic/piezo fetal impulses, dual IMU acceleration vectors, and 4-zone belt fit resistance.",
+      role: "Gathers raw photoplethysmography (Ag/Agcl ECG electrodes), acoustic/piezo fetal impulses, dual IMU acceleration vectors, and 4-zone belt fit resistance.",
       spec: "I2C / SPI bus communication, 50Hz digital sampling, low-power sleep cycles."
     },
     ble: {

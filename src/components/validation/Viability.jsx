@@ -5,7 +5,7 @@ export default function Viability() {
   const points = [
     {
       title: "HIGH-PRECISION SENSING",
-      desc: "Utilizes reliable I2C bio-sensors with mature driver ecosystems (MAX30102, LSM6DSOX, TMP117) providing dependable baseline readings.",
+      desc: "Utilizes reliable I2C bio-sensors with mature driver ecosystems (Ag/Agcl ECG electrodes, LSM6DSOX, TMP117) providing dependable baseline readings.",
       icon: Cpu,
       color: "text-sky-600 bg-sky-50"
     },

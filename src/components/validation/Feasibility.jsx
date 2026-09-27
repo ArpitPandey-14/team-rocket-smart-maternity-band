@@ -23,7 +23,7 @@ export default function Feasibility() {
     },
     {
       title: "COMPONENT-LEVEL ENGINEERING",
-      desc: "Built around a defined, costed BOM (ESP32-S3, MAX30102, IMUs, piezo fetal-movement sensors, FSR pressure sensors, load cell) — presented as an internal reference, not a finished/certified spec.",
+      desc: "Built around a defined, costed BOM (ESP32-S3, Ag/Agcl ECG electrodes, IMUs, piezo fetal-movement sensors, FSR pressure sensors, load cell) — presented as an internal reference, not a finished/certified spec.",
       icon: Cpu,
       color: "text-teal-600 bg-teal-50"
     },
