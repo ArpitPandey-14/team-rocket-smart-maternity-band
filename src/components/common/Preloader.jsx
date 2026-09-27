@@ -32,21 +32,9 @@ export default function Preloader() {
                   r="40"
                   fill="none"
                   stroke="#E2E8F0"
-                  strokeWidth="3"
+                  strokeWidth=".1"
                 />
-                {/* Glowing traveling line */}
-                <motion.circle
-                  cx="50"
-                  cy="50"
-                  r="40"
-                  fill="none"
-                  stroke="url(#gradient-band)"
-                  strokeWidth="4"
-                  strokeDasharray="70 180"
-                  strokeLinecap="round"
-                  animate={{ rotate: 360 }}
-                  transition={{ repeat: Infinity, duration: 1.2, ease: "linear" }}
-                />
+                
                 <defs>
                   <linearGradient id="gradient-band" x1="0%" y1="0%" x2="100%" y2="100%">
                     <stop offset="0%" stopColor="#0284C7" />
